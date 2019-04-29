@@ -23,11 +23,11 @@ Check config of dnsmasq already deployed
 # cat /etc/dnsmasq.d/mycompany.conf
 ```
 Main terms in the config -
-	1. interface - Name of interface used to listen to DHCP requests and serving replies
-	2. bind-interfaces - dnsmasq will operate on that interface only and ignore the others
-	3. domain - Domain name used on the network
-	4. dhcp-option - Allows us to give DHCP clients additional information such as router and dns server
-	5. dhcp-range - Range of IPs that are available to be used for dynamic IP assignment and the length of the lease
+1. interface - Name of interface used to listen to DHCP requests and serving replies
+2. bind-interfaces - dnsmasq will operate on that interface only and ignore the others
+3. domain - Domain name used on the network
+4. dhcp-option - Allows us to give DHCP clients additional information such as router and dns server
+5. dhcp-range - Range of IPs that are available to be used for dynamic IP assignment and the length of the lease
 
 Run dnsmasq and tell it which configuration file we want to use 
 ```
