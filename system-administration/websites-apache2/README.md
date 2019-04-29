@@ -1,4 +1,4 @@
-Install Apache2 web server
+## Lab - Install Apache2 web server
 ```
 # sudo apt update
 # sudo apt install apache2

@@ -1,4 +1,6 @@
-## Reminder commands
+## Lab - Service Management in Linux
+
+### Reminder commands
 ```
 sudo <command> - execute with admin rights
 ls <directory> - list the files in the directory
@@ -9,7 +11,7 @@ grep <pattern> <file> - filter the text of the file according to pattern
 less <file> - Browse a file 
 ```
 
-## Service Management
+### Service Management
 Listing system services which are running currently
 ```
 # sudo systemctl --state=running

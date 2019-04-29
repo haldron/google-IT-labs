@@ -1,7 +1,8 @@
+## Service Management in Windows
 To use the GUI for managing services -
 Control Panel -> System and Security -> Administrative Tools -> Services
 
-## With PowerShell
+### With PowerShell
 List the available services
 ```
 # Get-Service

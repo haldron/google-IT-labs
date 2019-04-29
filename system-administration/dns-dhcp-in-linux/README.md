@@ -1,3 +1,5 @@
+## Lab - Getting familiar with DNS and DHCP
+
 See the status of the network interface for server side
 ```
 # ip address show eth_srv

@@ -1,4 +1,6 @@
-## Reminder Commands
+## Lab - Using BackupPc with Linux and Windows
+
+### Reminder Commands
 
 sudo <command>: executes a command with administrator rights
 apt update: updates the list of available packages to be installed
@@ -13,7 +15,8 @@ cat <file>: outputs the whole contents of a file
 grep <pattern> <file>: filters the text of a file according to the pattern
 tail <file>: shows the last lines of a file
 
-## BackupPc commands
+### BackupPc commands
+
 Install the backuppc package 
 ```
 # sudo apt update 
