@@ -1,15 +1,15 @@
 ## The 5-Layer Network Model in Action
 
-### PROMPT
+### Prompt
 In your own words, describe what happens at every step of our network model when a node on one network establishes a TCP connection with a node on another network. You can assume that the two networks are both connected to the same router.
 
 ### Assumptions -
 
-1.      As given, we can assume two nodes are on different networks which have a common router between them. The node Computer A on Network A tries to establish a TCP connection with node Computer B on Network B.
+1. As given, we can assume two nodes are on different networks which have a common router between them. The node Computer A on Network A tries to establish a TCP connection with node Computer B on Network B.
 
-2.      For the sake of explanation using an example let's say Computer A on Network A wants to get a webpage located on Computer B on Network A.
+2. For the sake of explanation using an example let's say Computer A on Network A wants to get a webpage located on Computer B on Network A.
 
-3.      IP of computer A is 10.1.1.100 on the network A at 10.1.1.0/24 and IP of computer B is 192.168.1.100 on the network B at 192.168.1.0/24. Router interface on network A is 10.1.1.1 and on network B is 192.168.1.1
+3. IP of computer A is 10.1.1.100 on the network A at 10.1.1.0/24 and IP of computer B is 192.168.1.100 on the network B at 192.168.1.0/24. Router interface on network A is 10.1.1.1 and on network B is 192.168.1.1
 
 
 ### Steps involved -
